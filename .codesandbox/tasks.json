@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "gen": {
+      "name": "gen",
+      "command": "npm run gen",
+      "runAtStart": false
+    },
+    "start:built": {
+      "name": "start:built",
+      "command": "npm run start:built",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:site": {
+      "name": "build:site",
+      "command": "npm run build:site",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "bootstrap": {
+      "name": "bootstrap",
+      "command": "npm run bootstrap",
+      "runAtStart": false
+    },
+    "install-new-packages": {
+      "name": "install-new-packages",
+      "command": "npm run install-new-packages",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "install-playwright": {
+      "name": "install-playwright",
+      "command": "npm run install-playwright",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "npm run deploy",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "npm run prepublishOnly",
+      "runAtStart": false
+    },
+    "postpublish": {
+      "name": "postpublish",
+      "command": "npm run postpublish",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    }
+  }
+}
